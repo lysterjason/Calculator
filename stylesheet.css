@@ -1,7 +1,7 @@
 .calculator {
   background-color: #3A4655;
   width: 600px;
-  height: 625px;
+  height: 675px;
   margin: auto;
 }
 
@@ -21,11 +21,31 @@ td {
   background-color: orange !important;
 }
 
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input:focus {
+  outline: none;
+} 
+
 form {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 20px !important;
   font-size: 45px;
-  color: #fff;
+}
+
+input {
+  width: 470px !important;
+  margin: 15px !important;
+  text-align: right;
+  background-color: #3A4655;
+  border: none;
+  border-right:4px solid orange;
+  color: orange;
+  padding-right: 5px;
+  -webkit-animation: 1s blink step-end infinite;
 }
 
 table {
@@ -33,15 +53,27 @@ table {
   vertical-align: middle;
 }
 
-.format-double {
-  width: 240px;
+.clear {
   color: #D95D4E !important;
 }
 
-.format-double:hover {
+.clear:hover {
   background-color: white !important;
 }
 
 .display-style {
   width: 487px;
+}
+
+.previous-calc {
+  height: 25px;
+  text-align: right;
+  color: orange;
+  padding-top: 10px;
+  padding-right: 70px;
+}
+
+@-webkit-keyframes blink {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
