@@ -77,3 +77,19 @@ table {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+
+.div-table-row {
+  display: table-row;
+}
+
+.div-table {
+  text-align: center;                                 
+  border-spacing: 5px;
+}
+
+.div-table-col {
+  float: left; 
+  display: table-column;         
+  width: 147px;         
+  background-color: #3A4655;  
+}
