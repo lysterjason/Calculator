@@ -78,16 +78,16 @@ table {
   50% { border-color: orange }
 }
 
-.div-table-row {
+.table-row {
   display: table-row;
 }
 
-.div-table {
+.table {
   text-align: center;                                 
   border-spacing: 5px;
 }
 
-.div-table-col {
+.table-col {
   float: left; 
   display: table-column;         
   width: 147px;         
@@ -99,7 +99,10 @@ table {
     width: 100%;
     height: 750px;
   }
-  .div-table {
+  .previous-calc {
+    margin-right: 20%;
+  }
+  .table {
     margin-left: 18%;
   }
 }
