@@ -1,0 +1,11 @@
+SENG 513: B03 – Assignment #1
+Jason Lyster
+30024443
+
+URL: https://lysterjason.github.io
+
+Browsers Tested: 
+	1. Google Chrome - Version 71.0.3578.98
+	2. Mozilla Firefox - Version 64.0.2 
+	3. Microsoft Edge - Version 42.17134.1.0
+
